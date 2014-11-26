@@ -44,7 +44,7 @@ function kinematicsSandbox() {
         notificationText += " method of the <tt>example/Kinematics</tt> service."
         requestStr += "}";
         document.getElementById('request').innerHTML = requestStr.split(" ").join("&nbsp;");
-        document.getElementById('notificationstext').innerHTML = notificationText;
+        document.getElementById('notificationstextKinematics').innerHTML = notificationText;
         document.getElementById('notificationsdetails').style.display="inline";
     });
     
@@ -89,7 +89,7 @@ function kinematicsSandbox() {
         responseStr += "}";
         
         document.getElementById('response').innerHTML = responseStr.split(" ").join("&nbsp;");
-        document.getElementById('notificationstext').innerHTML = notificationText;
+        document.getElementById('notificationstextKinematics').innerHTML = notificationText;
         document.getElementById('notificationsdetails').style.display="inline";
     });
     
@@ -243,7 +243,7 @@ function kinematicsSandbox() {
         requestStr += '<br>   "init_info:" "type": '+myrequestlist[30] + ' }<br>}';
         document.getElementById('request').innerHTML = requestStr.split(" ").join("&nbsp;");
         
-        document.getElementById('notificationstext').innerHTML = "Sent a request to the <tt>optimize</tt> method of the <tt>example/Trajopt</tt> service";
+        document.getElementById('notificationstextKinematics').innerHTML = "Sent a request to the <tt>optimize</tt> method of the <tt>example/Trajopt</tt> service";
         document.getElementById('notificationsdetails').style.display="inline";
     });
     
@@ -271,7 +271,7 @@ function kinematicsSandbox() {
             notificationstext += " but there were no collision-free trajectories found";
         }
         document.getElementById('response').innerHTML = responseStr.split(" ").join("&nbsp;");
-        document.getElementById('notificationstext').innerHTML = notificationstext;
+        document.getElementById('notificationstextKinematics').innerHTML = notificationstext;
 
         document.getElementById('notificationsdetails').style.display="inline";
     });
