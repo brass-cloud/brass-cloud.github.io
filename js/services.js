@@ -1,6 +1,7 @@
 "use strict";
 
-var raasServer = "http://brass.services:8888/"; // GCE
+var raasServer = "http://brass.services/"; // GCE
+// var raasServer = "http://brass.services:8888/"; // GCE 8888
 // var raasServer = "http://localhost:8888/"; // local
 // var raasServer = "http://surgical5.cs.berkeley.edu:8888/"; // surgical5
 
